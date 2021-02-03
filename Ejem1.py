@@ -118,6 +118,9 @@ ax = fig.add_subplot(1, 1, 1, aspect="auto")
 c = ax.contour(x, z, h[:, 50, :], np.arange(90, 100.1, 0.2), colors="black")
 plt.clabel(c, fmt="%1.1f")
 #ploteando una seccion transversal
+
+
+
 """
 Created on Mon Jan 25 15:35:07 2021
 
